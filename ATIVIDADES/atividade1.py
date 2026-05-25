@@ -1,1 +1,17 @@
+import random
+
+lancamentos= []
+for i in range(1,7):
+  resultado = (random.randint(1,6))
+  lancamentos.append(resultado)
+
+frequencia= []
+for face in range(1,7):
+  quantidade = lancamentos.count(face)
+  frequencia.append(quantidade)
+
+print("vetor de lancamentos(100vezes)")
+print(lancamentos)
+pritn("/nVetor de frequencia (quantidade vezes da faces 1,2,3,4,5,6)")
+print(frequencia)
 
